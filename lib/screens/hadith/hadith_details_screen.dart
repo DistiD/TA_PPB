@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:muslim_app/model/hadith_details.dart';
 import 'package:muslim_app/shared/adaptive/indicator.dart';
-import 'package:muslim_app/shared/components/indicator.dart';
-import 'package:muslim_app/shared/components/size_box.dart';
 import 'package:muslim_app/shared/providers/settings_provider.dart';
 import 'package:muslim_app/shared/style/theme.dart';
 import 'package:provider/provider.dart';
@@ -14,6 +11,12 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 class HadithDetailsScreen extends StatelessWidget {
   const HadithDetailsScreen({Key? key}) : super(key: key);
   static const String routeName = 'HadithDetailsScreen';
+
+  // Mendefinisikan fungsi getOs() yang digunakan di dalam HadithDetailsScreen
+  String getOs() {
+    // Tambahkan logika untuk mendapatkan sistem operasi di sini
+    return 'Android'; // Contoh sederhana, sesuaikan dengan logika yang sesuai
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,16 +34,21 @@ class HadithDetailsScreen extends StatelessWidget {
       ),
       child: Scaffold(
         appBar: AppBar(
-          automaticallyImplyLeading: false,
           title: Text(
             AppLocalizations.of(context)!.app_title,
             style: GoogleFonts.elMessiri(),
+          ),
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
           ),
         ),
         body: argNames.content.isEmpty
             ? Center(
                 child: AdaptiveIndicator(
-                  os: getOs(),
+                  os: getOs(), // Panggil fungsi getOs() di sini
                 ),
               )
             : SizedBox(
@@ -60,33 +68,16 @@ class HadithDetailsScreen extends StatelessWidget {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            CircleAvatar(
-                                backgroundColor: settingsProvider.isDarkMode()
-                                    ? Colors.white
-                                    : Colors.black,
-                                radius: 15.r,
-                                child: Icon(
-                                  FontAwesomeIcons.circlePlay,
-                                  color: settingsProvider.isDarkMode()
-                                      ? Colors.black
-                                      : Colors.white,
-                                )),
-                            Space(width: 10.w, height: 0),
-                            FittedBox(
-                              child: Text(
-                                argNames.title,
-                                style: GoogleFonts.elMessiri(
-                                  fontSize: 30.sp,
-                                  color: settingsProvider.isDarkMode()
-                                      ? Colors.white
-                                      : Colors.black,
-                                ),
-                              ),
+                        FittedBox(
+                          child: Text(
+                            argNames.title,
+                            style: GoogleFonts.elMessiri(
+                              fontSize: 30.sp,
+                              color: settingsProvider.isDarkMode()
+                                  ? Colors.white
+                                  : Colors.black,
                             ),
-                          ],
+                          ),
                         ),
                         Container(
                           width: double.infinity,

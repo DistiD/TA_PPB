@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Downloads\Muslim_app-master\Muslim_app-master\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\fdc360263037cae4a265fd73da50d8f7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A4417DD3-2365-3708-BC19-9716C03C4BC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

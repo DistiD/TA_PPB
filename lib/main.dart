@@ -21,16 +21,17 @@ import 'package:muslim_app/screens/splash_screen.dart'; // Import file splash_sc
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   ScreenUtil.ensureScreenSize();
+  final settingsProvider = SettingsProvider(); // Buat instance dari SettingsProvider
   runApp(
     ChangeNotifierProvider(
-      create: (buildContext) => SettingsProvider(),
+      create: (buildContext) => settingsProvider,
       child: Builder(
         builder: (context) {
           SystemChrome.setPreferredOrientations([
             DeviceOrientation.portraitUp,
             DeviceOrientation.portraitDown,
           ]);
-          return MyApp();
+          return MyApp(settingsProvider: settingsProvider); // Gunakan settingsProvider di sini
         },
       ),
     ),
@@ -38,11 +39,12 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
-  late SettingsProvider settingsProvider;
+  final SettingsProvider settingsProvider; // Tambahkan final di sini
+
+  const MyApp({Key? key, required this.settingsProvider}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    settingsProvider = Provider.of<SettingsProvider>(context);
     getValueFromPref();
     return ScreenUtilInit(
       designSize: const Size(360, 690),

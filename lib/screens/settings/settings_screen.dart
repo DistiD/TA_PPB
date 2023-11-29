@@ -8,8 +8,7 @@ import 'package:muslim_app/shared/components/theme_bottom_sheet.dart';
 import 'package:muslim_app/shared/providers/settings_provider.dart';
 import 'package:muslim_app/shared/style/theme.dart';
 import 'package:provider/provider.dart';
-import 'package:share_plus/share_plus.dart';
-import 'dart:ui_web';
+
 import 'authorprofilescreen.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -35,6 +34,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               style: Theme.of(context).textTheme.titleSmall!.copyWith(
                     fontWeight: FontWeight.bold,
                     fontSize: 20.sp,
+                    color: settingsProvider.isDarkMode()
+                        ? Colors.white 
+                        : Colors.black,
                   ),
             ),
             Space(width: 0, height: 8.h),
@@ -68,15 +70,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         settingsProvider.isDarkMode()
                             ? AppLocalizations.of(context)!.dark
                             : AppLocalizations.of(context)!.light,
-                        style: settingsProvider.currentLanguage == 'en'
-                            ? Theme.of(context).textTheme.titleLarge
-                            : Theme.of(context)
-                                .textTheme
-                                .titleLarge!
-                                .copyWith(
-                                  fontSize: 20.sp,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                        style: TextStyle(
+                          color: settingsProvider.isDarkMode()
+                              ? Colors.white 
+                              : Colors.black,
+                          fontSize: 20.sp,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       const Spacer(),
                       Icon(
@@ -95,6 +95,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
               style: Theme.of(context).textTheme.titleSmall!.copyWith(
                     fontWeight: FontWeight.bold,
                     fontSize: 20.sp,
+                    color: settingsProvider.isDarkMode()
+                        ? Colors.white 
+                        : Colors.black,
                   ),
             ),
             Space(width: 0, height: 8.h),
@@ -131,15 +134,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         settingsProvider.currentLanguage == 'en'
                             ? AppLocalizations.of(context)!.english
                             : AppLocalizations.of(context)!.arabic,
-                        style: settingsProvider.currentLanguage == 'en'
-                            ? Theme.of(context).textTheme.titleLarge
-                            : Theme.of(context)
-                                .textTheme
-                                .titleLarge!
-                                .copyWith(
-                                  fontSize: 20.sp,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                        style: TextStyle(
+                          color: settingsProvider.isDarkMode()
+                              ? Colors.white 
+                              : Colors.black,
+                          fontSize: 20.sp,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       const Spacer(),
                       Icon(
@@ -154,12 +155,15 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
             Space(width: 0, height: 24.h),
             TextButton(
-              onPressed: showAuthorProfile, // Panggil method showAuthorProfile
+              onPressed: showAuthorProfile,
               child: Text(
                 'Author Profile',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20.sp,
+                  color: settingsProvider.isDarkMode()
+                      ? Colors.white 
+                      : Colors.black,
                 ),
               ),
             ),

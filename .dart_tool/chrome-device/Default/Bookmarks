@@ -1,0 +1,98 @@
+{
+   "checksum": "73331c7e9f92b68e02f62109c5814853",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13324139594744714",
+            "date_last_used": "0",
+            "guid": "685ae647-84ec-4162-b0a7-f964f14bdcbf",
+            "id": "10",
+            "name": "Pengantar pemrograman di Kotlin  |  Android Basics Compose - First Android app  |  Android Developers",
+            "type": "url",
+            "url": "https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-1?hl=id#codelab-https://developer.android.com/codelabs/basic-android-kotlin-compose-functions"
+         }, {
+            "date_added": "13339616083642635",
+            "date_last_used": "0",
+            "guid": "691fdbc7-f9b1-42e0-8081-5691d293ba1e",
+            "id": "11",
+            "name": "(1) - EDA Playground",
+            "type": "url",
+            "url": "https://www.edaplayground.com/x/nCG5"
+         }, {
+            "date_added": "13343927271416687",
+            "date_last_used": "0",
+            "guid": "4106acd6-3e52-42b5-b309-c3dabb765289",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Nonton Film The Ghost Station (2023) Sub Indo | REBAHIN",
+            "type": "url",
+            "url": "http://179.43.163.53/nonton-film-the-ghost-station-sub-indo/play/?ep=2&sv=1"
+         }, {
+            "date_added": "13344003864965629",
+            "date_last_used": "0",
+            "guid": "22f8e390-e237-413d-a112-5beb345badce",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Magang Kementerian Keuangan",
+            "type": "url",
+            "url": "https://magang.kemenkeu.go.id/in/home"
+         }, {
+            "date_added": "13345555949527225",
+            "date_last_used": "0",
+            "guid": "9bb51fca-d5b6-42b9-97f0-59175c813f70",
+            "id": "9",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/"
+         }, {
+            "date_added": "13345555949527002",
+            "date_last_used": "0",
+            "guid": "8442c6ef-f6ca-4b66-944d-191efc604a72",
+            "id": "8",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/"
+         }, {
+            "date_added": "13345555949522366",
+            "date_last_used": "0",
+            "guid": "7e7296c8-6e4c-4acd-b5cb-00ed0a907daf",
+            "id": "7",
+            "name": "McAfee LiveSafe",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=247829"
+         } ],
+         "date_added": "13345555948109546",
+         "date_last_used": "0",
+         "date_modified": "13345555949527225",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13345555948109549",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13345555948109555",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

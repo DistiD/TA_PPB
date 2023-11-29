@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/fdc360263037cae4a265fd73da50d8f7/nuget-populate.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/22d803b63846e6e7bb01054023912bf0/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/Downloads/Muslim_app-master/Muslim_app-master/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/0fbabf1688e455918ea4239af049771f/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

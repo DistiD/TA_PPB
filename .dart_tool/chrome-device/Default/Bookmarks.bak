@@ -1,0 +1,116 @@
+{
+   "checksum": "3b6eaa73325946bce48f7d52c08bd3d7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13324139594744714",
+            "date_last_used": "0",
+            "guid": "685ae647-84ec-4162-b0a7-f964f14bdcbf",
+            "id": "10",
+            "name": "Pengantar pemrograman di Kotlin  |  Android Basics Compose - First Android app  |  Android Developers",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-1?hl=id#codelab-https://developer.android.com/codelabs/basic-android-kotlin-compose-functions"
+         }, {
+            "date_added": "13339616083642635",
+            "date_last_used": "0",
+            "guid": "691fdbc7-f9b1-42e0-8081-5691d293ba1e",
+            "id": "11",
+            "name": "(1) - EDA Playground",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.edaplayground.com/x/nCG5"
+         }, {
+            "date_added": "13343927271416687",
+            "date_last_used": "0",
+            "guid": "4106acd6-3e52-42b5-b309-c3dabb765289",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Nonton Film The Ghost Station (2023) Sub Indo | REBAHIN",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://179.43.163.53/nonton-film-the-ghost-station-sub-indo/play/?ep=2&sv=1"
+         }, {
+            "date_added": "13344003864965629",
+            "date_last_used": "0",
+            "guid": "22f8e390-e237-413d-a112-5beb345badce",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Magang Kementerian Keuangan",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://magang.kemenkeu.go.id/in/home"
+         }, {
+            "date_added": "13345555949527225",
+            "date_last_used": "0",
+            "guid": "9bb51fca-d5b6-42b9-97f0-59175c813f70",
+            "id": "9",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/"
+         }, {
+            "date_added": "13345555949527002",
+            "date_last_used": "0",
+            "guid": "8442c6ef-f6ca-4b66-944d-191efc604a72",
+            "id": "8",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/"
+         }, {
+            "date_added": "13345555949522366",
+            "date_last_used": "0",
+            "guid": "7e7296c8-6e4c-4acd-b5cb-00ed0a907daf",
+            "id": "7",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=247829"
+         } ],
+         "date_added": "13345555948109546",
+         "date_last_used": "0",
+         "date_modified": "13345555949527225",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13345555948109549",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13345555948109555",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCFUlaRCMAQAAKg4QABgAIAgoBDAAOABAABIAIAEqGGtnWHFadEk1ZkxUbHBxVTZHTmRyY3c9PaAGDBKoAQgMEqMBChxwME4xY1ZiTzJSbnNrR0V1Zm9BMlF0c2lZYjQ9EiQ0MTA2YWNkNi0zZTUyLTQyYjUtYjMwOS1jM2RhYmI3NjUyODkYACACKAIw4u2lg8ExOPuB1fq6MUCTyKWDwTFKHGxEVE1wWXZ0NzhrdUxSTE1wMy9BRU5VWXY4WT1aHyId7m8zWDZwNFR2aGpqRTNiZm1lYmJTVEx4Z3Rtbz1lZxGNLxKoAQgLEqMBChxrODFlT0Q1bkdEcDk1TzlMQXlFVWdWZ0d0WVE9EiQ2OTFmZGJjNy1mOWIxLTQyZTAtODA4MS01NjkxZDI5M2JhMWUYACACKAIw4e2lg8ExOLDC9vKqMUCSyKWDwTFKHENLcVdra2tFY043ZmJQbnlUZjl2WDd5ekY2dz1aHyId3Hl1YTdmMUNEbk41SVUyNkdZMXcyNXdoZE1WUT1lbMkZIRKJAQgBEoQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRmYWM1Y2U4My01NjdjLTViYzgtYjg2MC05ZmFhNDQ0NzhiM2YYACAAKAAw/uD7sbEwOK7VqajwL0Cu1amo8C9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEqcBCAoSogEKHEhhWWx4M2N0Q25NVkdVUHBBcDFxWlpkaFFaND0SJDY4NWFlNjQ3LTg0ZWMtNDE2Mi1iMGE3LWY5NjRmMTRiZGNiZhgAIAIoAjDg7aWDwTE4ssiUn/EwQJHIpYPBMUocRmQ1S2F3K2QwYUFJejJ3QXpYYk9DVWtwT2tvPVoeIhxwSHFEc3k3bm1INzlkSFBkTjRaN3RxK1FTS2c9ZaPVrBgSqAEIDRKjAQocalB3OTZSbkRzQmlhOVNyZ0V4aUUzWkFiMzhVPRIkMjJmOGUzOTAtZTIzNy00MTNkLWExMTItNWJlYjM0NWJhZGNlGAAgAigCMN/tpYPBMTjru5efuzFAlMilg8ExShxISGlzT2toTEdOOGRTTStnN2wxdzJZa1IwZlU9Wh8iHfcyZFo2Nk1COXJFcWhIUnlXQ3BBbU9ma2paRWM9ZY71cYQSiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkOWUyYjQ3NDMtZmUyMy01OTJiLTk4NGMtNTc4MjYwNGIzMDQzGAAgACgAMP7g+7GxMDjO1amo8C9AztWpqPAvShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQxMDFiYmZkYS1hYmMxLTU2YTEtYjMyZS1iZWFiMzg4YWM1NjUYACAAKAAw/uD7sbEwOIzWqajwL0CM1qmo8C9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAMAA4AA==",
+   "version": 1
+}

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:muslim_app/screens/author_profile/author_profile_screen.dart';
 import 'package:muslim_app/screens/hadith/hadith_screen.dart';
 import 'package:muslim_app/screens/quran/quran_screen.dart';
 import 'package:muslim_app/screens/radio/radio_screen.dart';
@@ -19,9 +20,9 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-int currentIndex = 0;
-
 class _HomeScreenState extends State<HomeScreen> {
+  int currentIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     var settingsProvider = Provider.of<SettingsProvider>(context);
@@ -49,27 +50,37 @@ class _HomeScreenState extends State<HomeScreen> {
           currentIndex: currentIndex,
           items: [
             BottomNavigationBarItem(
-                backgroundColor: Theme.of(context).primaryColor,
-                icon: const ImageIcon(
-                  AssetImage(AssetsPath.quranIcon),
-                ),
-                label: AppLocalizations.of(context)!.quran),
+              backgroundColor: Theme.of(context).primaryColor,
+              icon: const ImageIcon(
+                AssetImage(AssetsPath.quranIcon),
+              ),
+              label: AppLocalizations.of(context)!.quran,
+            ),
             BottomNavigationBarItem(
-                backgroundColor: Theme.of(context).primaryColor,
-                icon: const ImageIcon(AssetImage('assets/images/hadith_icon.png')),
-                label: AppLocalizations.of(context)!.hadith,),
+              backgroundColor: Theme.of(context).primaryColor,
+              icon: const ImageIcon(AssetImage('assets/images/hadith_icon.png')),
+              label: AppLocalizations.of(context)!.hadith,
+            ),
             BottomNavigationBarItem(
-                backgroundColor: Theme.of(context).primaryColor,
-                icon: const ImageIcon(AssetImage('assets/images/sebha_icon.png')),
-                label: AppLocalizations.of(context)!.sebha,),
+              backgroundColor: Theme.of(context).primaryColor,
+              icon: const ImageIcon(AssetImage('assets/images/sebha_icon.png')),
+              label: AppLocalizations.of(context)!.sebha,
+            ),
             BottomNavigationBarItem(
-                backgroundColor: Theme.of(context).primaryColor,
-                icon: const ImageIcon(AssetImage('assets/images/radio_icon.png')),
-                label: AppLocalizations.of(context)!.radio,),
+              backgroundColor: Theme.of(context).primaryColor,
+              icon: const ImageIcon(AssetImage('assets/images/radio_icon.png')),
+              label: AppLocalizations.of(context)!.radio,
+            ),
             BottomNavigationBarItem(
                 backgroundColor: Theme.of(context).primaryColor,
                 icon: const Icon(Icons.settings),
-                label: AppLocalizations.of(context)!.settings,),
+                label: AppLocalizations.of(context)!.settings,
+            ),
+            BottomNavigationBarItem(
+              backgroundColor: Theme.of(context).primaryColor,
+              icon: const Icon(Icons.account_circle),
+              label: 'Author Profile', // Label untuk AuthorProfileScreen
+            ),
           ],
         ),
         body: screens[currentIndex],
@@ -83,6 +94,6 @@ class _HomeScreenState extends State<HomeScreen> {
     const SebhaScreen(),
     const RadioScreen(),
     const SettingsScreen(),
+    AuthorProfileScreen(), 
   ];
-
 }
